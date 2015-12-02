@@ -1,0 +1,1338 @@
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.font-jhenghei{
+    font-family: "microsoft jhenghei";
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.font-size-inherit{
+    font-size: inherit;
+}
+
+.font-size-12{
+    font-size: 12px;
+}
+
+.font-size-14{
+    font-size: 14px;
+}
+
+.font-size-16{
+    font-size: 16px;
+}
+
+.font-size-18{
+    font-size: 18px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-size-22{
+    font-size: 22px;
+}
+
+.font-size-24{
+    font-size: 24px;
+}
+
+.font-size-26{
+    font-size: 26px;
+}
+
+.font-size-28{
+    font-size: 28px;
+}
+
+.font-size-30{
+    font-size: 30px;
+}
+
+.font-size-32{
+    font-size: 32px;
+}
+
+.font-size-34{
+    font-size: 34px;
+}
+
+.font-size-36{
+    font-size: 36px;
+}
+
+.font-size-38{
+    font-size: 38px;
+}
+
+.font-size-40{
+    font-size: 40px;
+}
+
+.font-size-42{
+    font-size: 42px;
+}
+
+.font-size-44 {
+    font-size: 44px;
+}
+
+.font-size-46{
+    font-size: 46px;
+}
+
+.font-size-48{
+    font-size: 48px;
+}
+
+.font-size-50{
+    font-size: 50px;
+}
+
+.font-size-52{
+    font-size: 52px;
+}
+
+.font-size-54 {
+    font-size: 54px;
+}
+
+.font-size-56{
+    font-size: 56px;
+}
+
+.font-size-58{
+    font-size: 58px;
+}
+
+.font-size-60{
+    font-size: 60px;
+}
+
+.font-size-62{
+    font-size: 62px;
+}
+
+.font-size-64 {
+    font-size: 64px;
+}
+
+.font-size-66{
+    font-size: 66px;
+}
+
+.font-size-68{
+    font-size: 68px;
+}
+
+.font-size-70{
+    font-size: 70px;
+}
+
+.font-size-72{
+    font-size: 72px;
+}
+
+.line-height-20{
+    line-height: 20px;
+}
+
+.line-height-22{
+    line-height: 22px;
+}
+
+.line-height-24{
+    line-height: 24px;
+}
+
+.line-height-26{
+    line-height: 26px;
+}
+
+.line-height-28{
+    line-height: 28px;
+}
+
+.line-height-30{
+    line-height: 30px;
+}
+
+.line-height-32{
+    line-height: 32px;
+}
+
+.line-height-34{
+    line-height: 34px;
+}
+
+.line-height-36{
+    line-height: 36px;
+}
+
+.line-height-38{
+    line-height: 38px;
+}
+
+.line-height-40{
+    line-height: 40px;
+}
+
+.line-height-42{
+    line-height: 42px;
+}
+
+.line-height-44{
+    line-height: 44px;
+}
+
+.line-height-46{
+    line-height: 46px;
+}
+
+.line-height-48{
+    line-height: 48px;
+}
+
+.line-height-50{
+    line-height: 50px;
+}
+
+.line-height-60{
+    line-height: 60px;
+}
+
+.line-height-70{
+    line-height: 70px;
+}
+
+.line-height-80{
+    line-height: 80px;
+}
+
+.line-height-90{
+    line-height: 90px;
+}
+
+.line-height-100{
+    line-height: 100px;
+}
+
+.border-0{
+    border: 0;
+}
+
+.border.border-1-solid{
+    border: 1px solid;
+}
+
+.border.border-2-solid{
+    border: 2px solid;
+}
+
+.border.border-3-solid{
+    border: 3px solid;
+}
+
+.border.border-4-solid{
+    border: 4px solid;
+}
+
+.border.border-5-solid{
+    border: 5px solid;
+}
+
+.border.top-1-solid{
+    border-top: 1px solid;
+}
+
+.border.top-2-solid{
+    border-top: 2px solid;
+}
+
+.border.top-3-solid{
+    border-top: 3px solid;
+}
+
+.border.top-4-solid{
+    border-top: 4px solid;
+}
+
+.border.top-5-solid{
+    border-top: 5px solid;
+}
+
+.border.bottom-1-solid{
+    border-bottom: 1px solid;
+}
+
+.border.bottom-2-solid{
+    border-bottom: 2px solid;
+}
+
+.border.bottom-3-solid{
+    border-bottom: 3px solid;
+}
+
+.border.bottom-4-solid{
+    border-bottom: 4px solid;
+}
+
+.border.bottom-5-solid{
+    border-bottom: 5px solid;
+}
+
+.border.left-1-solid{
+    border-left: 1px solid;
+}
+
+.border.left-2-solid{
+    border-left: 2px solid;
+}
+
+.border.left-3-solid{
+    border-left: 3px solid;
+}
+
+.border.left-4-solid{
+    border-left: 4px solid;
+}
+
+.border.left-5-solid{
+    border-left: 5px solid;
+}
+
+.border.right-1-solid{
+    border-right: 1px solid;
+}
+
+.border.right-2-solid{
+    border-right: 2px solid;
+}
+
+.border.right-3-solid{
+    border-right: 3px solid;
+}
+
+.border.right-4-solid{
+    border-right: 4px solid;
+}
+
+.border.right-5-solid{
+    border-right: 5px solid;
+}
+
+.border.border-1-dotted{
+    border: 1px dotted;
+}
+
+.border.border-2-dotted{
+    border: 2px dotted;
+}
+
+.border.border-3-dotted{
+    border: 3px dotted;
+}
+
+.border.border-4-dotted{
+    border: 4px dotted;
+}
+
+.border.border-5-dotted{
+    border: 5px dotted;
+}
+
+.border.top-1-dotted{
+    border-top: 1px dotted;
+}
+
+.border.top-2-dotted{
+    border-top: 2px dotted;
+}
+
+.border.top-3-dotted{
+    border-top: 3px dotted;
+}
+
+.border.top-4-dotted{
+    border-top: 4px dotted;
+}
+
+.border.top-5-dotted{
+    border-top: 5px dotted;
+}
+
+.border.bottom-1-dotted{
+    border-bottom: 1px dotted;
+}
+
+.border.bottom-2-dotted{
+    border-bottom: 2px dotted;
+}
+
+.border.bottom-3-dotted{
+    border-bottom: 3px dotted;
+}
+
+.border.bottom-4-dotted{
+    border-bottom: 4px dotted;
+}
+
+.border.bottom-5-dotted{
+    border-bottom: 5px dotted;
+}
+
+.border.left-1-dotted{
+    border-left: 1px dotted;
+}
+
+.border.left-2-dotted{
+    border-left: 2px dotted;
+}
+
+.border.left-3-dotted{
+    border-left: 3px dotted;
+}
+
+.border.left-4-dotted{
+    border-left: 4px dotted;
+}
+
+.border.left-5-dotted{
+    border-left: 5px dotted;
+}
+
+.border.right-1-dotted{
+    border-right: 1px dotted;
+}
+
+.border.right-2-dotted{
+    border-right: 2px dotted;
+}
+
+.border.right-3-dotted{
+    border-right: 3px dotted;
+}
+
+.border.right-4-dotted{
+    border-right: 4px dotted;
+}
+
+.border.right-5-dotted{
+    border-right: 5px dotted;
+}
+
+.border.border-1-dashed{
+    border: 1px dashed;
+}
+
+.border.border-2-dashed{
+    border: 2px dashed;
+}
+
+.border.border-3-dashed{
+    border: 3px dashed;
+}
+
+.border.border-4-dashed{
+    border: 4px dashed;
+}
+
+.border.border-5-dashed{
+    border: 5px dashed;
+}
+
+.border.top-1-dashed{
+    border-top: 1px dashed;
+}
+
+.border.top-2-dashed{
+    border-top: 2px dashed;
+}
+
+.border.top-3-dashed{
+    border-top: 3px dashed;
+}
+
+.border.top-4-dashed{
+    border-top: 4px dashed;
+}
+
+.border.top-5-dashed{
+    border-top: 5px dashed;
+}
+
+.border.bottom-1-dashed{
+    border-bottom: 1px dashed;
+}
+
+.border.bottom-2-dashed{
+    border-bottom: 2px dashed;
+}
+
+.border.bottom-3-dashed{
+    border-bottom: 3px dashed;
+}
+
+.border.bottom-4-dashed{
+    border-bottom: 4px dashed;
+}
+
+.border.bottom-5-dashed{
+    border-bottom: 5px dashed;
+}
+
+.border.left-1-dashed{
+    border-left: 1px dashed;
+}
+
+.border.left-2-dashed{
+    border-left: 2px dashed;
+}
+
+.border.left-3-dashed{
+    border-left: 3px dashed;
+}
+
+.border.left-4-dashed{
+    border-left: 4px dashed;
+}
+
+.border.left-5-dashed{
+    border-left: 5px dashed;
+}
+
+.border.right-1-dashed{
+    border-right: 1px dashed;
+}
+
+.border.right-2-dashed{
+    border-right: 2px dashed;
+}
+
+.border.right-3-dashed{
+    border-right: 3px dashed;
+}
+
+.border.right-4-dashed{
+    border-right: 4px dashed;
+}
+
+.border.right-5-dashed{
+    border-right: 5px dashed;
+}
+
+.border-radius-1{
+    border-radius: 1px;
+} 
+
+.border-radius-2{
+    border-radius: 2px;
+}  
+
+.border-radius-3{
+    border-radius: 3px;
+}  
+
+.border-radius-4{
+    border-radius: 4px;
+}  
+
+.border-radius-5{
+    border-radius: 5px;
+}  
+
+.border-circle{
+    border-radius: 100%;
+}
+
+.border.black{
+    border-color: black;
+}
+
+.border.lightgrey{
+    border-color: #d3d3d3;
+}
+
+.border.darkgrey{
+    border-color: darkgrey;
+}
+
+.border.grey{
+    border-color: grey;
+}
+
+.border.white{
+    border-color: white;
+}
+
+.border.blue{
+    border-color: blue;
+}
+
+.border.red{
+    border-color: red;
+}
+
+.border.green{
+    border-color: green;
+}
+
+.border.yellow{
+    border-color: yellow;
+}
+
+.border.purple{
+    border-color: purple;
+}
+
+.border.cyan{
+    border-color: cyan;
+}
+
+.border.alpha{
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.alpha-0{
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    opacity: 0;
+}
+
+.alpha-1{
+    filter:alpha(opacity=10);
+    -moz-opacity:0.1;
+    opacity: 0.1;
+}
+
+.alpha-2{
+    filter:alpha(opacity=20);
+    -moz-opacity:0.2;
+    opacity: 0.2;
+}
+
+.alpha-3{
+    filter:alpha(opacity=30);
+    -moz-opacity:0.3;
+    opacity: 0.3;
+}
+
+.alpha-4{
+    filter:alpha(opacity=40);
+    -moz-opacity:0.4;
+    opacity: 0.4;
+}
+
+.alpha-5{
+    filter:alpha(opacity=50);
+    -moz-opacity:0.3;
+    opacity: 0.3;
+}
+
+.alpha-6{
+    filter:alpha(opacity=60);
+    -moz-opacity:0.6;
+    opacity: 0.6;
+}
+
+.alpha-7{
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+}
+
+.alpha-8{
+    filter:alpha(opacity=80);
+    -moz-opacity:0.8;
+    opacity: 0.8;
+}
+
+.alpha-9{
+    filter:alpha(opacity=90);
+    -moz-opacity:0.9;
+    opacity: 0.9;
+}
+
+.alpha-10{
+    filter:alpha(opacity=100);
+    -moz-opacity:1;
+    opacity: 1;
+}
+
+.background-color-lightgrey, .background-color-lightgrey > a, .background-color-lightgrey > p, .background-color-lightgrey > h1, .background-color-lightgrey > h2, .background-color-lightgrey > h3, .background-color-lightgrey > h4, .background-color-lightgrey > h5, .background-color-lightgrey > h6{
+    background-color: #d3d3d3;
+}
+
+.background-color-darkgrey, .background-color-darkgrey > a, .background-color-darkgrey > p, .background-color-darkgrey > h1, .background-color-darkgrey > h2, .background-color-darkgrey > h3, .background-color-darkgrey > h4, .background-color-darkgrey > h5, .background-color-darkgrey > h6{
+    background-color: darkgrey;
+}
+
+.background-color-grey, .background-color-grey > a, .background-color-grey > p, .background-color-grey > h1, .background-color-grey > h2, .background-color-grey > h3, .background-color-grey > h4, .background-color-grey > h5, .background-color-grey > h6{
+    background-color: grey;
+}
+
+.background-color-dimgrey, .background-color-dimgrey > a, .background-color-dimgrey > p, .background-color-dimgrey > h1, .background-color-dimgrey > h2, .background-color-dimgrey > h3, .background-color-dimgrey > h4, .background-color-dimgrey > h5, .background-color-dimgrey > h6{
+    background-color: dimgrey;
+}
+
+.background-color-grey-1, .background-color-grey-1 > a, .background-color-grey-1 > p, .background-color-grey-1 > h1, .background-color-grey-1 > h2, .background-color-grey-1 > h3, .background-color-grey-1 > h4, .background-color-grey-1 > h5, .background-color-grey-1 > h6, .background-color-grey-1 > span{
+    background-color: #333;
+}
+
+.background-color-grey-2, .background-color-grey-2 > a, .background-color-grey-2 > p, .background-color-grey-2 > h1, .background-color-grey-2 > h2, .background-color-grey-2 > h3, .background-color-grey-2 > h4, .background-color-grey-2 > h5, .background-color-grey-2 > h6, .background-color-grey-2 > span{
+    background-color: #4d4d4d;
+}
+
+.background-color-grey-3, .background-color-grey-3 > a, .background-color-grey-3 > p, .background-color-grey-3 > h1, .background-color-grey-3 > h2, .background-color-grey-3 > h3, .background-color-grey-3 > h4, .background-color-grey-3 > h5, .background-color-grey-3 > h6, .background-color-grey-3 > span{
+    background-color: #5d5d5d;
+}
+
+.background-color-grey-4, .background-color-grey-4 > a, .background-color-grey-4 > p, .background-color-grey-4 > h1, .background-color-grey-4 > h2, .background-color-grey-4 > h3, .background-color-grey-4 > h4, .background-color-grey-4 > h5, .background-color-grey-4 > h6, .background-color-grey-4 > span{
+    background-color: #666;
+}
+
+.background-color-grey-5, .background-color-grey-5 > a, .background-color-grey-5 > p, .background-color-grey-5 > h1, .background-color-grey-5 > h2, .background-color-grey-5 > h3, .background-color-grey-5 > h4, .background-color-grey-5 > h5, .background-color-grey-5 > h6, .background-color-grey-5 > span{
+    background-color: #7d7d7d;
+}
+
+.background-color-grey-6, .background-color-grey-6 > a, .background-color-grey-6 > p, .background-color-grey-6 > h1, .background-color-grey-6 > h2, .background-color-grey-6 > h3, .background-color-grey-6 > h4, .background-color-grey-6 > h5, .background-color-grey-6 > h6, .background-color-grey-6 > span{
+    background-color: #999;
+}
+
+.background-color-grey-7, .background-color-grey-7 > a, .background-color-grey-7 > p, .background-color-grey-7 > h1, .background-color-grey-7 > h2, .background-color-grey-7 > h3, .background-color-grey-7 > h4, .background-color-grey-7 > h5, .background-color-grey-7 > h6, .background-color-grey-7 > span{
+    background-color: #aaa;
+}
+
+.background-color-grey-8, .background-color-grey-8 > a, .background-color-grey-8 > p, .background-color-grey-8 > h1, .background-color-grey-8 > h2, .background-color-grey-8 > h3, .background-color-grey-8 > h4, .background-color-grey-8 > h5, .background-color-grey-8 > h6, .background-color-grey-8 > span{
+    background-color: #ccc;
+}
+
+.background-color-grey-9, .background-color-grey-9 > a, .background-color-grey-9 > p, .background-color-grey-9 > h1, .background-color-grey-9 > h2, .background-color-grey-9 > h3, .background-color-grey-9 > h4, .background-color-grey-9 > h5, .background-color-grey-9 > h6, .background-color-grey-9 > span{
+    background-color: #eee;
+}
+
+.background-color-yellow, .background-color-yellow > a, .background-color-yellow > p, .background-color-yellow > h1, .background-color-yellow > h2, .background-color-yellow > h3, .background-color-yellow > h4, .background-color-yellow > h5, .background-color-yellow > h6{
+    background-color: yellow;
+}
+
+.background-color-purple, .background-color-purple > a, .background-color-purple > p, .background-color-purple > h1, .background-color-purple > h2, .background-color-purple > h3, .background-color-purple > h4, .background-color-purple > h5, .background-color-purple > h6{
+    background-color: purple;
+}
+
+.background-color-green, .background-color-green > a, .background-color-green > p, .background-color-green > h1, .background-color-green > h2, .background-color-green > h3, .background-color-green > h4, .background-color-green > h5, .background-color-green > h6{
+    background-color: green;
+}
+
+.background-color-blue, .background-color-blue > a, .background-color-blue > p, .background-color-blue > h1, .background-color-blue > h2, .background-color-blue > h3, .background-color-blue > h4, .background-color-blue > h5, .background-color-blue > h6{
+    background-color: blue;
+}
+
+.background-color-red, .background-color-red > a, .background-color-red > p, .background-color-red > h1, .background-color-red > h2, .background-color-red > h3, .background-color-red > h4, .background-color-red > h5, .background-color-red > h6{
+    background-color: red;
+}
+
+.background-color-black, .background-color-black > a, .background-color-black > p, .background-color-black > h1, .background-color-black > h2, .background-color-black > h3, .background-color-black > h4, .background-color-black > h5, .background-color-black > h6{
+    background-color: black;
+}
+
+.font-color-grey-1, .font-color-grey-1 > a, .font-color-grey-1 > p, .font-color-grey-1 > h1, .font-color-grey-1 > h2, .font-color-grey-1 > h3, .font-color-grey-1 > h4, .font-color-grey-1 > h5, .font-color-grey-1 > h6, .font-color-grey-1 > span{
+    color: #333;
+}
+
+.font-color-grey-2, .font-color-grey-2 > a, .font-color-grey-2 > p, .font-color-grey-2 > h1, .font-color-grey-2 > h2, .font-color-grey-2 > h3, .font-color-grey-2 > h4, .font-color-grey-2 > h5, .font-color-grey-2 > h6, .font-color-grey-2 > span{
+    color: #4d4d4d;
+}
+
+.font-color-grey-3, .font-color-grey-3 > a, .font-color-grey-3 > p, .font-color-grey-3 > h1, .font-color-grey-3 > h2, .font-color-grey-3 > h3, .font-color-grey-3 > h4, .font-color-grey-3 > h5, .font-color-grey-3 > h6, .font-color-grey-3 > span{
+    color: #5d5d5d;
+}
+
+.font-color-grey-4, .font-color-grey-4 > a, .font-color-grey-4 > p, .font-color-grey-4 > h1, .font-color-grey-4 > h2, .font-color-grey-4 > h3, .font-color-grey-4 > h4, .font-color-grey-4 > h5, .font-color-grey-4 > h6, .font-color-grey-4 > span{
+    color: #666;
+}
+
+.font-color-grey-5, .font-color-grey-5 > a, .font-color-grey-5 > p, .font-color-grey-5 > h1, .font-color-grey-5 > h2, .font-color-grey-5 > h3, .font-color-grey-5 > h4, .font-color-grey-5 > h5, .font-color-grey-5 > h6, .font-color-grey-5 > span{
+    color: #7d7d7d;
+}
+
+.font-color-grey-6, .font-color-grey-6 > a, .font-color-grey-6 > p, .font-color-grey-6 > h1, .font-color-grey-6 > h2, .font-color-grey-6 > h3, .font-color-grey-6 > h4, .font-color-grey-6 > h5, .font-color-grey-6 > h6, .font-color-grey-6 > span{
+    color: #999;
+}
+.font-color-grey-7, .font-color-grey-7 > a, .font-color-grey-7 > p, .font-color-grey-7 > h1, .font-color-grey-7 > h2, .font-color-grey-7 > h3, .font-color-grey-7 > h4, .font-color-grey-7 > h5, .font-color-grey-7 > h6, .font-color-grey-7 > span{
+    color: #aaa;
+}
+
+.font-color-grey-8, .font-color-grey-8 > a, .font-color-grey-8 > p, .font-color-grey-8 > h1, .font-color-grey-8 > h2, .font-color-grey-8 > h3, .font-color-grey-8 > h4, .font-color-grey-8 > h5, .font-color-grey-8 > h6, .font-color-grey-8 > span{
+    color: #ccc;
+}
+
+.font-color-grey-9, .font-color-grey-9 > a, .font-color-grey-9 > p, .font-color-grey-9 > h1, .font-color-grey-9 > h2, .font-color-grey-9 > h3, .font-color-grey-9 > h4, .font-color-grey-9 > h5, .font-color-grey-9 > h6, .font-color-grey-9 > span{
+    color: #eee;
+}
+
+.background-color-white, .background-color-white > a, .background-color-white > p, .background-color-white > h1, .background-color-white > h2, .background-color-white > h3, .background-color-white > h4, .background-color-white > h5, .background-color-white > h6{
+    background-color: white;
+}
+
+.font-color-lightgrey, .font-color-lightgrey > a, .font-color-lightgrey > p, .font-color-lightgrey > h1, .font-color-lightgrey > h2, .font-color-lightgrey > h3, .font-color-lightgrey > h4, .font-color-lightgrey > h5, .font-color-lightgrey > h6, .font-color-lightgrey > span{
+    color: #d3d3d3;
+}
+.font-color-darkgrey, .font-color-darkgrey > a, .font-color-darkgrey > p, .font-color-darkgrey > h1, .font-color-darkgrey > h2, .font-color-darkgrey > h3, .font-color-darkgrey > h4, .font-color-darkgrey > h5, .font-color-darkgrey > h6, .font-color-darkgrey > span{
+    color: darkgrey;
+}
+
+.font-color-grey, .font-color-grey > a, .font-color-grey > p, .font-color-grey > h1, .font-color-grey > h2, .font-color-grey > h3, .font-color-grey > h4, .font-color-grey > h5, .font-color-grey > h6, .font-color-grey > span{
+    color: grey;
+}
+
+.font-color-yellow, .font-color-yellow > a, .font-color-yellow > p, .font-color-yellow > h1, .font-color-yellow > h2, .font-color-yellow > h3, .font-color-yellow > h4, .font-color-yellow > h5, .font-color-yellow > h6, .font-color-yellow > span{
+    color: yellow;
+}
+
+.font-color-purple, .font-color-purple > a, .font-color-purple > p, .font-color-purple > h1, .font-color-purple > h2, .font-color-purple > h3, .font-color-purple > h4, .font-color-purple > h5, .font-color-purple > h6, .font-color-purple > span{
+    color: purple;
+}
+
+.font-color-green, .font-color-green > a, .font-color-green > p, .font-color-green > h1, .font-color-green > h2, .font-color-green > h3, .font-color-green > h4, .font-color-green > h5, .font-color-green > h6, .font-color-green > span{
+    color: green;
+}
+
+.font-color-cyan, .font-color-cyan > a, .font-color-cyan > p, .font-color-cyan > h1, .font-color-cyan > h2, .font-color-cyan > h3, .font-color-cyan > h4, .font-color-cyan > h5, .font-color-cyan > h6, .font-color-cyan > span{
+    color: cyan;
+}
+
+.font-color-blue, .font-color-blue > a, .font-color-blue > p, .font-color-blue > h1, .font-color-blue > h2, .font-color-blue > h3, .font-color-blue > h4, .font-color-blue > h5, .font-color-blue > h6, .font-color-blue > span{
+    color: blue;
+}
+
+.font-color-red, .font-color-red > a, .font-color-red > p, .font-color-red > h1, .font-color-red > h2, .font-color-red > h3, .font-color-red > h4, .font-color-red > h5, .font-color-red > h6, .font-color-red > span{
+    color: red;
+}
+
+.font-color-black, .font-color-black > a, .font-color-black > p, .font-color-black > h1, .font-color-black > h2, .font-color-black > h3, .font-color-black > h4, .font-color-black > h5, .font-color-black > h6, .font-color-black > span{
+    color: black;
+}
+
+.font-color-white, .font-color-white > a, .font-color-white > p, .font-color-white > h1, .font-color-white > h2, .font-color-white > h3, .font-color-white > h4, .font-color-white > h5, .font-color-white > h6, .font-color-white > span{
+    color: white;
+}
+
+.font-color-inherit, .font-color-inherit > a, .font-color-inherit > p, .font-color-inherit > h1, .font-color-inherit > h2, .font-color-inherit > h3, .font-color-inherit > h4, .font-color-inherit > h5, .font-color-inherit > h6, .font-color-inherit > span{
+    color: inherit;
+}
+
+.hover-background-black:hover,
+.hover-background-black:focus,
+.hover-background-black > a:hover,
+.hover-background-black > a:focus{
+  background-color: black;
+}
+
+.hover-background-grey-1:hover,
+.hover-background-grey-1:focus,
+.hover-background-grey-1 > a:hover,
+.hover-background-grey-1 > a:focus{
+  background-color: #333;
+}
+
+.hover-background-grey-2:hover,
+.hover-background-grey-2:focus,
+.hover-background-grey-2 > a:hover,
+.hover-background-grey-2 > a:focus{
+  background-color: #4d4d4d;
+}
+
+.hover-background-grey-3:hover,
+.hover-background-grey-3:focus,
+.hover-background-grey-3 > a:hover,
+.hover-background-grey-3 > a:focus{
+  background-color: #5d5d5d;
+}
+
+.hover-background-grey-4:hover,
+.hover-background-grey-4:focus,
+.hover-background-grey-4 > a:hover,
+.hover-background-grey-4 > a:focus{
+  background-color: #666;
+}
+
+.hover-background-grey-5:hover,
+.hover-background-grey-5:focus,
+.hover-background-grey-5 > a:hover,
+.hover-background-grey-5 > a:focus{
+  background-color: #7d7d7d;
+}
+
+.hover-background-grey-6:hover,
+.hover-background-grey-6:focus,
+.hover-background-grey-6 > a:hover,
+.hover-background-grey-6 > a:focus{
+  background-color: #999;
+}
+
+.hover-background-grey-7:hover,
+.hover-background-grey-7:focus,
+.hover-background-grey-7 > a:hover,
+.hover-background-grey-7 > a:focus{
+  background-color: #aaa;
+}
+
+.hover-background-grey-8:hover,
+.hover-background-grey-8:focus,
+.hover-background-grey-8 > a:hover,
+.hover-background-grey-8 > a:focus{
+  background-color: #ccc;
+}
+
+.hover-background-grey-9:hover,
+.hover-background-grey-9:focus,
+.hover-background-grey-9 > a:hover
+.hover-background-grey-9 > a:focus{
+  background-color: #eee;
+}
+
+.hover-bold:hover,
+.hover-bold:focus,
+.hover-bold > a:hover,
+.hover-bold > a:focus{
+    font-weight: bold;
+}
+
+.hover-black:hover,
+.hover-black:focus,
+.hover-black > a:hover,
+.hover-black > a:focus{
+    color: black;
+}
+
+.hover-grey-1:hover,
+.hover-grey-1:focus,
+.hover-grey-1 > a:hover,
+.hover-grey-1 > a:focus{
+    color: #333;
+}
+
+.hover-grey-2:hover,
+.hover-grey-2:focus,
+.hover-grey-2 > a:hover,
+.hover-grey-2 > a:focus{
+    color: #4d4d4d;
+}
+
+.hover-grey-3:hover,
+.hover-grey-3:focus,
+.hover-grey-3 > a:hover,
+.hover-grey-3 > a:focus{
+    color: #5d5d5d;
+}
+
+.hover-grey-4:hover,
+.hover-grey-4:focus,
+.hover-grey-4 > a:hover,
+.hover-grey-4 > a:focus{
+    color: #666;
+}
+
+.hover-grey-5:hover,
+.hover-grey-5:focus,
+.hover-grey-5 > a:hover,
+.hover-grey-5 > a:focus{
+    color: #7d7d7d;
+}
+
+.hover-grey-6:hover,
+.hover-grey-6:focus,
+.hover-grey-6 > a:hover,
+.hover-grey-6 > a:focus{
+    color: #999;
+}
+
+.hover-grey-7:hover,
+.hover-grey-7:focus,
+.hover-grey-7 > a:hover,
+.hover-grey-7 > a:focus{
+    color: #aaa;
+}
+
+.hover-grey-8:hover,
+.hover-grey-8:focus,
+.hover-grey-8 > a:hover,
+.hover-grey-8 > a:focus{
+    color: #ccc;
+}
+
+.hover-grey-9:hover,
+.hover-grey-9:focus,
+.hover-grey-9 > a:hover
+.hover-grey-9 > a:focus{
+    color: #eee;
+}
+
+.hover-red-1:hover,
+.hover-red-1:focus,
+.hover-red-1 > a:hover,
+.hover-red-1 > a:focus{
+     color: #600;
+}
+
+.hover-red-2:hover,
+.hover-red-2:focus,
+.hover-red-2 > a:hover,
+.hover-red-2 > a:focus{
+    color: #700;
+}
+
+.hover-red-3:hover,
+.hover-red-3:focus,
+.hover-red-3 > a:hover,
+.hover-red-3 > a:focus{
+    color: #800;
+}
+
+.hover-red-4:hover,
+.hover-red-4:focus,
+.hover-red-4 > a:hover,
+.hover-red-4 > a:focus{
+    color: #900;
+}
+
+.hover-red-5:hover,
+.hover-red-5:focus,
+.hover-red-5 > a:hover,
+.hover-red-5 > a:focus{
+    color: #a00;
+}
+
+.hover-red-6:hover,
+.hover-red-6:focus,
+.hover-red-6 > a:hover,
+.hover-red-6 > a:focus{
+    color: #b00;
+}
+
+.hover-red-7:hover,
+.hover-red-7:focus,
+.hover-red-7 > a:hover,
+.hover-red-7 > a:focus{
+    color: #c00;
+}
+
+.hover-red-8:hover,
+.hover-red-8:focus,
+.hover-red-8 > a:hover,
+.hover-red-8 > a:focus{
+    color: #d00;
+}
+
+.hover-red-9:hover,
+.hover-red-9:focus,
+.hover-red-9 > a:hover
+.hover-red-9 > a:focus{
+    color: #e00;
+}
+
+.hover-red:hover,
+.hover-red:focus,
+.hover-red > a:hover
+.hover-red > a:focus{
+    color: #f00;
+}
+
+.hover-dimgrey:hover,
+.hover-dimgrey:focus,
+.hover-dimgrey > a:hover,
+.hover-dimgrey > a:focus{
+    color: dimgrey;
+}
+
+.hover-grey:hover,
+.hover-grey:focus,
+.hover-grey > a:hover,
+.hover-grey > a:focus{
+    color: grey;
+}
+
+.hover-white:hover,
+.hover-white:focus,
+.hover-white > a:hover,
+.hover-white > a:focus{
+    color: white;
+}
+
+.hover-alpha-0:hover,
+.hover-alpha-0:focus,
+.hover-alpha-0 > a:hover,
+.hover-alpha-0 > a:focus{
+    filter:alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0;
+}
+
+.hover-alpha-1:hover,
+.hover-alpha-1:focus,
+.hover-alpha-1 > a:hover,
+.hover-alpha-1 > a:focus{
+    filter:alpha(opacity=10);
+    -moz-opacity: 0.1;
+    opacity: 0.1;
+}
+
+.hover-alpha-2:hover,
+.hover-alpha-2:focus,
+.hover-alpha-2 > a:hover,
+.hover-alpha-2 > a:focus{
+    filter:alpha(opacity=20);
+    -moz-opacity: 0.2;
+    opacity: 0.2;
+}
+
+.hover-alpha-3:hover,
+.hover-alpha-3:focus,
+.hover-alpha-3 > a:hover,
+.hover-alpha-3 > a:focus{
+    filter:alpha(opacity=30);
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+}
+
+.hover-alpha-4:hover,
+.hover-alpha-4:focus,
+.hover-alpha-4 > a:hover,
+.hover-alpha-4 > a:focus{
+    filter:alpha(opacity=40);
+    -moz-opacity: 0.4;
+    opacity: 0.4;
+}
+
+.hover-alpha-5:hover,
+.hover-alpha-5:focus,
+.hover-alpha-5 > a:hover,
+.hover-alpha-5 > a:focus{
+    filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.hover-alpha-6:hover,
+.hover-alpha-6:focus,
+.hover-alpha-6 > a:hover,
+.hover-alpha-6 > a:focus{
+    filter:alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.hover-alpha-7:hover,
+.hover-alpha-7:focus,
+.hover-alpha-7 > a:hover,
+.hover-alpha-7 > a:focus{
+    filter:alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+}
+
+.hover-alpha-8:hover,
+.hover-alpha-8:focus,
+.hover-alpha-8 > a:hover,
+.hover-alpha-8 > a:focus{
+    filter:alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+
+.hover-alpha-9:hover,
+.hover-alpha-9:focus,
+.hover-alpha-9 > a:hover,
+.hover-alpha-9 > a:focus{
+    filter:alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+}
+
+.hover-alpha-10:hover,
+.hover-alpha-10:focus,
+.hover-alpha-10 > a:hover,
+.hover-alpha-10 > a:focus{
+    filter:alpha(opacity=1);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.letter-spacing-1{
+    letter-spacing: 1px;
+}
+
+.letter-spacing-2{
+    letter-spacing: 2px;
+}
+
+.letter-spacing-3{
+    letter-spacing: 3px;
+}
+
+.vertical-top{
+    vertical-align: top;
+}
+
+.vertical-middle{
+    vertical-align: middle;
+}
+
+.vertical-bottom{
+    vertical-align: bottom;
+}
+
+.text-decoration-none,
+.text-decoration-none:hover,
+.text-decoration-none:focus,
+.text-decoration-none > a,
+.text-decoration-none > a:hover,
+.text-decoration-none > a:focus,
+.text-decoration-none > a > img,
+.text-decoration-none > a > img:hover,
+.text-decoration-none > a > img:focus{
+    text-decoration: none;
+}
+
+/*新專案待刪*/
+.no-underline,
+.no-underline:hover,
+.no-underline:focus,
+.no-underline > a,
+.no-underline > a:hover,
+.no-underline > a:focus,
+.no-underline > a > img,
+.no-underline > a > img:hover,
+.no-underline > a > img:focus{
+    text-decoration: none;
+}
+
+
+hr.black{
+    border-color: black;
+}
+
+hr.grey-1{
+    border-color: #333;
+}
+
+hr.grey-2{
+    border-color: #4d4d4d;
+}
+
+hr.grey-3{
+    border-color: #5d5d5d;
+}
+
+hr.grey-4{
+    border-color: #666;
+}
+
+hr.grey-5{
+    border-color: #7d7d7d;
+}
+
+hr.grey-6{
+    border-color: #999;
+}
+
+hr.grey-7{
+    border-color: #aaa;
+}
+
+hr.grey-8{
+    border-color: #ccc;
+}
+
+hr.grey-9{
+    border-color: #eee;
+}
+
+hr.white{
+    border-color: white;
+}
+
+hr.red{
+    border-color: red;
+}
+
+hr.orange{
+    border-color: orange;
+}
+
+hr.wheat{
+    border-color: wheat;
+}
+
+hr.yellow{
+    border-color: yellow;
+}
+
+hr.lime{
+    border-color: lime;
+}
+
+hr.green{
+    border-color: green;
+}
+
+hr.blue{
+    border-color: blue;
+}
+
+hr.cyan{
+    border-color: cyan;
+}
+
+hr.pink{
+    border-color: pink;
+}
+
+hr.purple{
+    border-color: purple;
+}
+
+hr.solid{
+    border-style: solid;
+}
+
+hr.dashed{
+    border-style: dashed;
+}
+
+hr.dotted{
+    border-style: dotted;
+}
+
+hr.width-1{
+    border-width: 1px;
+}
+
+hr.width-2{
+    border-width: 2px;
+}
+
+hr.width-3{
+    border-width: 3px;
+}
+
+hr.width-4{
+    border-width: 4px;
+}
+
+hr.width-5{
+    border-width: 5px;
+}
