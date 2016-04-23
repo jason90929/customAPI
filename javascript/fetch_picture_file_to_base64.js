@@ -1,3 +1,6 @@
+/*
+ * 上傳圖片後抓取base64設定最大長寬，並再轉base64(壓縮圖片)
+ */
 var fu = document.getElementById("postImage"); // grab the file browser
 var f = fu.files[0]; // grab the file
 var fr = new FileReader(); // create a new file reader
