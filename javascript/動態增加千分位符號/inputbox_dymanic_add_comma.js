@@ -1,6 +1,4 @@
-﻿// <input id="" type="text" class="text-right" onkeyup="dynamicAddComma(this)" />
-
-$(function()
+﻿$(function()
 {
      /**
      * 字串去除頭尾的空白
@@ -12,7 +10,7 @@ $(function()
             return this.replace(/^\s+|\s+$/g, '');
        };
      }
-    
+
      /**
      * 字串不足指定的長度時，自動於左方以指定的字串補足
      *
@@ -26,10 +24,10 @@ $(function()
          {
               str = padString + str;
          }
-        
+
          return str;
      };
-    
+
      /**
      * 字串不足指定的長度時，自動於右方以指定的字串補足
      *
@@ -43,26 +41,26 @@ $(function()
          {
               str += padString;
          }
-        
+
          return str;
      };
-    
+
      /**
      * 將字串加入千分位
      */
      String.prototype.addComma = function()
-     {    
+     {
           var n = '';
           for(var i = 0 ; i < this.length ; i++)
           {
                n += this[i];
           }
-                   
+
           n = n.trim();
           if (!/^((-*\d+\.?\d*)|(0))$/.test(n))
           {
                var newValue = /^((-*\d+\.?\d*)|(0))$/.exec(n);
-              
+
                if(n.match(/^\./)) // TODO 0.123 -> .123 (先不強制歸零)
                {
                     return n;
@@ -83,7 +81,7 @@ $(function()
                     n = '0';
                }
           }
-         
+
           if (parseFloat(n, 10) == 0)
           {
                if (n.match(/\.$/)) // TODO 避免無法輸入小數點  0.
@@ -119,13 +117,13 @@ $(function()
                     n = parseFloat(n, 10).toString();
                }
           }
-         
+
           n += '';
           var arr = n.split('.');
           var re = /(\d{1,3})(?=(\d{3})+$)/g;
-          return arr[0].replace(re, '$1,') + (arr.length == 2 ? '.' + arr[1] : ''); 
+          return arr[0].replace(re, '$1,') + (arr.length == 2 ? '.' + arr[1] : '');
      };
-    
+
      /**
      * 將字串移除千分位
      */
@@ -138,7 +136,7 @@ $(function()
           }
           return n.replace(/[,]+/g, '');
      };
-    
+
      /**
      * 字串是否為數字
      */
@@ -149,12 +147,12 @@ $(function()
           {
                n += this[i];
           }
-         
+
           n = n.trim();
-         
+
           return /^((-*\d+)|(0))$/.test(n);
      };
-    
+
 });
 
 
@@ -170,11 +168,11 @@ function dynamicAddComma(input)
      var totalLen = $(input).val().length; // 原本字串長度
      var newPos;
      var newVal = $input.val().removeComma(); // removeComma
-    
+
      $input.val(newVal.addComma()); // addComma
-    
+
      var newLen = $input.val().length; // 新增後字串長度
-    
+
      if(totalLen == newLen) // 判斷input游標位置
      {
           newPos = insertPos;
@@ -190,7 +188,7 @@ function dynamicAddComma(input)
                newPos = insertPos + 1;
           }
      }
-    
+
      setInputTargetPos(input, newPos);
 }
 
