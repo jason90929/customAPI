@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta charset="utf-8" http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>精美的bootbox</title>
+    <meta name="description" content="">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="bootbox/4.4.0/js/bootbox.min.js"></script>
+    <script type="text/javascript" src="pretty-bootbox.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<body>
+
+<input type="button" class="btn btn-info" value="成功帶警告" onclick="showSuccessWithWarringBootBox('成功文字', '警告文字')" />
+<br/>
+<input type="button" class="btn btn-success" value="成功" onclick="showSuccessBootBox(function() {
+    console.log('do something when succeed!')
+})" />
+<br/>
+<input type="button" class="btn btn-success" value="成功帶自定義文字" onclick="showSuccessBootBoxCustom('你成功囉', function() {
+    console.log('do something when succeed!');
+})" />
+<br/>
+<input type="button" class="btn btn-danger" value="失敗" onclick="showErrorBootBox('失敗了')" />
+<br/>
+<input type="button" class="btn btn-warning" value="警告" onclick="showWarringBootBox('警告你')" />
+
+
+<!-- DIALOG DIV -->
+<!-- 成功訊息並帶提示（警告）訊息 -->
+<div id="successWithWarringBootBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">成功</h3>
+        </div>
+        <div class="panel-body"><strong>成功！</strong><span id="msgSuccessSpan">操作成功</span></div>
+    </div>
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                <span id="msgWarringSpan"></span>
+            </h3>
+        </div>
+    </div>
+</div>
+<!-- 成功訊息（綠色）-->
+<div id="successBootBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <h3 class="panel-title">成功</h3>
+        </div>
+        <div class="panel-body"><strong>成功！</strong><span id="msgSpan">操作成功</span></div>
+    </div>
+</div>
+<!-- 失敗訊息（紅色）-->
+<div id="failBootBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="panel panel-danger">
+        <div class="panel-heading">
+            <h3 class="panel-title">失敗</h3>
+        </div>
+        <div class="panel-body"><strong>失敗！</strong><span id="msgSpan"></span></div>
+    </div>
+</div>
+<!-- 警示訊息（黃色） -->
+<div id="warringBootBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h3 class="panel-title">警示！</h3>
+        </div>
+        <div class="panel-body"><strong>警示！</strong><span id="msgSpan"></span></div>
+    </div>
+</div>
+<div id="confirmBootBox" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            <h3 class="panel-title">確認！</h3>
+        </div>
+        <div class="panel-body"><strong>請確認！</strong><span id="msgSpan"></span></div>
+    </div>
+</div>
+</body>
+</html>
