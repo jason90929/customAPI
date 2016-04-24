@@ -31,3 +31,9 @@ function pictureToBase64() {
         }, 200);
     };
 }
+
+let foo = (x) => {
+    return (x + 1);
+};
+
+console.log(foo(5));
