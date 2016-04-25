@@ -11,20 +11,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 <body>
 
-<input type="button" class="btn btn-info" value="成功帶警告" onclick="showSuccessWithWarringBootBox('成功文字', '警告文字')" />
-<br/>
-<input type="button" class="btn btn-success" value="成功" onclick="showSuccessBootBox(function() {
-    console.log('do something when succeed!')
-})" />
-<br/>
-<input type="button" class="btn btn-success" value="成功帶自定義文字" onclick="showSuccessBootBoxCustom('你成功囉', function() {
-    console.log('do something when succeed!');
-})" />
-<br/>
-<input type="button" class="btn btn-danger" value="失敗" onclick="showErrorBootBox('失敗了')" />
-<br/>
-<input type="button" class="btn btn-warning" value="警告" onclick="showWarringBootBox('警告你')" />
-
+<div>
+    <input type="button" class="btn btn-info" value="成功帶警告" onclick="showSuccessWithWarringBootBox('成功文字', '警告文字')" />
+    <br/>
+    <input type="button" class="btn btn-success" value="成功" onclick="showSuccessBootBox(function() {
+        console.log('do something when succeed!')
+    });" />
+    <br/>
+    <input type="button" class="btn btn-success" value="成功帶自定義文字" onclick="showSuccessBootBoxCustom('你成功囉', function() {
+        console.log('do something when succeed!');
+    });" />
+    <br/>
+    <input type="button" class="btn btn-danger" value="失敗" onclick="showErrorBootBox('失敗了');" />
+    <br/>
+    <input type="button" class="btn btn-warning" value="警告" onclick="showWarringBootBox('警告你');" />
+    <br/>
+    <input type="button" class="btn btn-default" value="讀取中" onclick="showWaitDialogCustom('讀取個五秒，請稍候');" />
+</div>
 
 <!-- DIALOG DIV -->
 <!-- 成功訊息並帶提示（警告）訊息 -->
@@ -76,6 +79,11 @@
             <h3 class="panel-title">確認！</h3>
         </div>
         <div class="panel-body"><strong>請確認！</strong><span id="msgSpan"></span></div>
+    </div>
+</div>
+<div id="waitingDiv" class="modal hide fade">
+    <div style="width: 100%;" class="text-center">
+        <img src="images/ajax-loader.gif" class="text-center">
     </div>
 </div>
 </body>
