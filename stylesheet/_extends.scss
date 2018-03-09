@@ -1,0 +1,180 @@
+@import './variables';
+
+// https://stackoverflow.com/questions/14840918/extending-selectors-from-within-media-queries-with-sass
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+}
+%flex { @include flex; }
+.flex { @extend %flex; }
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+%flex-column { @include flex-column; }
+.flex-column { @extend %flex-column; }
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+%flex-center { @include flex-center; }
+.flex-center { @extend %flex-center; }
+
+@mixin flex-center-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+%flex-center-column { @include flex-center-column; }
+.flex-center-column { @extend %flex-center-column; }
+
+@mixin absolute-full {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+%absolute-full { @include absolute-full; }
+.absolute-full { @extend %absolute-full; }
+
+@mixin fixed-full {
+  position: fixed;
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+%fixed-full { @include fixed-full; }
+.fixed-full { @extend %fixed-full; }
+
+@mixin absolute-full-width {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+%absolute-full-width { @include absolute-full-width; }
+.absolute-full-width { @extend %absolute-full-width; }
+
+@mixin absolute-full-height {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+}
+%absolute-full-height { @include absolute-full-height; }
+.absolute-full-height { @extend %absolute-full-height; }
+
+@mixin full {
+  width: 100%;
+  height: 100%;
+}
+%full { @include full; }
+.full { @extend %full; }
+
+@mixin text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+%text-ellipsis { @include text-ellipsis; }
+.text-ellipsis { @extend %text-ellipsis; }
+
+@mixin position-fixed {
+  position: fixed;
+  -webkit-backface-visibility: hidden;
+}
+%position-fixed { @include position-fixed; }
+.position-fixed { @extend %position-fixed; }
+
+@mixin overflow-auto {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+%overflow-auto { @include overflow-auto; }
+.overflow-auto { @extend %overflow-auto; }
+
+@mixin visibility-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+%visibility-hidden { @include visibility-hidden; }
+.visibility-hidden { @extend %visibility-hidden; }
+
+@mixin visibility-visible {
+  opacity: 1;
+  visibility: visible;
+}
+%visibility-visible { @include visibility-visible; }
+.visibility-visible { @extend %visibility-visible; }
+
+@mixin bg-center {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+%bg-center { @include bg-center; }
+.bg-center { @extend %bg-center; }
+
+@mixin position-center {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+%position-center { @include position-center; }
+.position-center { @extend %position-center; }
+
+@mixin text-md {
+  font-size: 16px;
+  line-height: 22px;
+}
+%text-md { @include text-md; }
+.text-md { @extend %text-md; }
+
+@mixin no-mp {
+  margin: 0;
+  padding: 0;
+}
+%no-mp { @include no-mp; }
+.no-mp { @extend %no-mp; }
+
+@mixin bdrs-5 {
+  border-radius: 5px;
+}
+%bdrs-5 { @include bdrs-5; }
+.bdrs-5 { @extend %bdrs-5; }
+
+@mixin pe-none {
+  pointer-events: none;
+}
+%pe-none { @include pe-none; }
+.pe-none { @extend %pe-none; }
+
+@mixin pe-auto {
+  pointer-events: auto;
+}
+%pe-auto { @include pe-auto; }
+.pe-auto { @extend %pe-auto; }
+
+@mixin bg-white {
+  background-color: $white;
+}
+%bg-white { @include bg-white; }
+.bg-white { @extend %bg-white; }
+
+@mixin bg-white-o95 {
+  background-color: rgba($white, .95);
+}
+%bg-white-o95 { @include bg-white-o95; }
+.bg-white-o95 { @extend %bg-white-o95; }

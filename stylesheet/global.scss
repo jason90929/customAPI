@@ -1,0 +1,72 @@
+@import 'extends';
+@import 'variables';
+
+html, body {
+  @extend %full;
+  @extend %no-mp;
+  position: relative;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Helvetica', '微軟正黑體', 'Microsoft JhengHei', '微軟雅黑體', 'Microsoft YaHei', 'sans-serif';
+}
+
+ul, li {
+  @extend %no-mp;
+  list-style-type: none;
+}
+
+figure {
+  @extend %no-mp;
+}
+
+.pre-custom {
+  @extend %no-mp;
+  display: block;
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+  resize: none;
+  white-space: pre-wrap;
+  // word-break: break-all;
+  // word-wrap: break-word;
+  border-radius: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.shadow {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .4);
+}
+
+.shadow-light {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, .2);
+}
+
+button {
+  @extend %bg-white;
+  @extend %no-mp;
+  border: 0;
+  cursor: pointer;
+}
+
+[role=button] {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, button {
+  &:focus {
+    outline: none;
+  }
+}
