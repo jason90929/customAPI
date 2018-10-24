@@ -18,14 +18,13 @@
 var solveSudoku = function(board) {
   var raws = JSON.parse(JSON.stringify(board))
   var columns = [[], [], [], [], [], [], [], [], []]
-  board.forEach((raws, index) => {
+  board.forEach(raws => {
     for (var i = 0; i < 9; i++) {
       columns[i].push(raws[i])
     }
   })
   var allFilledField = []
   var filledField = []
-  var failedField = []
   var tryNumber = function (raw, column, number) {
     if (board[raw][column] === '.') {
       let hasError = false
